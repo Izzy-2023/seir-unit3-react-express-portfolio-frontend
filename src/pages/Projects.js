@@ -6,13 +6,13 @@ function Projects(props) {
 
     return projects.map((project) => (
       <div>
-        <h1>{project.name}</h1>
+        <h2>{project.name}</h2>
         <img src={project.image} />
-        <a href={project.git}>
+        <a href={project.githubLink}><br></br>
           <button>Github</button>
         </a>
-        <a href={project.live}>
-          <button>live site</button>
+        <a href={project.deployedLink}>
+          <button>Live site</button>
         </a>
       </div>
     ));
