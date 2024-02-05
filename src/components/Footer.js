@@ -1,7 +1,7 @@
 function Footer(props) {
     return  (
-    <footer className="footer">
-    <p>&copy; Izzy Tech Consulting Inc. All rights reserved.</p>
+    <footer>
+    <p className="footer">&copy; Izzy Tech Consulting Inc. All rights reserved.</p>
   </footer>
     )
 }

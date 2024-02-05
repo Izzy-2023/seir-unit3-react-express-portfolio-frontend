@@ -12,7 +12,7 @@ function Projects(props) {
           <button>Github</button>
         </a>
         <a href={project.deployedLink}>
-          <button>Live site</button>
+          <button>Live site</button> <br></br>
         </a>
       </div>
     ));
